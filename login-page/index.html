@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>login-page</title>
+</head>
+<body>
+  <header>
+    <h1>login-page</h1>
+    <nav class="navbar">
+      <ul class="bar-button">
+        <li><a href="../about.html">about</a></li>
+        <li><a href="../contact.html">chat</a></li>
+        <li><a href="../contact.html">contact</a></li>
+        <li><a href="../index.html">home</a></li>
+        <li><a href="../index.html">back</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <fieldset>
+      <legend>welcome to login-page</legend>
+    <form action="https://httpbin.org/post" method="post">
+      <div id="userid">
+      <label for="username">username</label>
+      <input class="align" type="text" id="username" name="username" placeholder="enter user name" autofocus autocomplete="on" required>
+      </div>
+      <div id="password">
+        <label for="password">password</label>
+      <input type="password" name="password" id="password" required class="align">
+      </div>
+      <div class="gender">
+        <label for="gender">gender</label>
+        <select name="gender" id="align" class="align">
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="other">other</option>
+        </select>
+      </div>
+      <div class="button">
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        <p>login with</p>
+          <button type="submit" formaction="#">facebook</button>
+          <button type="submit">google</button>
+        </div>
+      </div>
+    </form>
+  </fieldset>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
